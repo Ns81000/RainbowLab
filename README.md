@@ -17,9 +17,6 @@
   <a href="https://github.com/Ns81000/RainbowLab/issues">
     <img src="https://img.shields.io/github/issues/Ns81000/RainbowLab?style=for-the-badge&color=f87171&labelColor=0a0a0f" alt="Issues" />
   </a>
-  <a href="https://github.com/Ns81000/RainbowLab/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Ns81000/RainbowLab?style=for-the-badge&color=34d399&labelColor=0a0a0f" alt="License" />
-  </a>
   <img src="https://img.shields.io/badge/python-3.10+-60a5fa?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0a0f" alt="Python" />
   <img src="https://img.shields.io/badge/react-18+-22d3ee?style=for-the-badge&logo=react&logoColor=white&labelColor=0a0a0f" alt="React" />
 </p>
