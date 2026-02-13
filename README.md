@@ -142,7 +142,11 @@ RainbowLab is organized into seven interactive modules, each teaching a differen
 
 ### 🏠 Home — Mission Control
 
-The landing page gives you a bird's eye view of the entire suite. Every module is a card — click to jump in.
+The landing page is your central command center, featuring:
+
+- **Module Cards:** Quick access to all 6 interactive labs.
+- **Learning Journey:** An interactive timeline guiding you from basic concepts to advanced defense.
+- **Deep Dive:** Detailed breakdowns of what each module teaches and the key insights you'll gain.
 
 <br />
 
