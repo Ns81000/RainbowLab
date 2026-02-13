@@ -1,0 +1,122 @@
+.arena-config {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.arena-tabs {
+    display: flex;
+    gap: 4px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    padding: 4px;
+    border: 1px solid var(--border-subtle);
+}
+
+.arena-tab {
+    flex: 1;
+    padding: 10px 16px;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: transparent;
+    transition: all var(--transition-fast);
+}
+
+.arena-tab:hover {
+    color: var(--text-primary);
+    background: var(--bg-glass-hover);
+}
+
+.arena-tab.active {
+    background: var(--accent-purple-dim);
+    color: var(--accent-purple);
+}
+
+.speed-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.speed-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.speed-bar-info {
+    width: 180px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: right;
+}
+
+.speed-bar-name {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.speed-bar-rating {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+.speed-bar-track {
+    flex: 1;
+    height: 20px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+}
+
+.speed-bar-fill {
+    height: 100%;
+    border-radius: var(--radius-full);
+    min-width: 4px;
+}
+
+.speed-bar-value {
+    width: 100px;
+    text-align: right;
+    font-size: 0.85rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.chart-container {
+    padding: 24px;
+}
+
+.arena-takeaway {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.arena-takeaway strong {
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .arena-config {
+        grid-template-columns: 1fr;
+    }
+
+    .speed-bar-info {
+        width: 120px;
+    }
+
+    .speed-bar-value {
+        width: 70px;
+        font-size: 0.75rem;
+    }
+
+    .arena-tabs {
+        flex-direction: column;
+    }
+}

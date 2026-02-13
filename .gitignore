@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+.pnpm-store/
+
+# Build artifacts
+frontend/dist/
+*.egg-info/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
